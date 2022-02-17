@@ -31,11 +31,19 @@ main form {
   background-color: rgb(95, 66, 175);
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1.2rem 0.5rem rgba(0, 0, 0, 0.4);
-  padding: 8rem 6rem;
+  width: 690px;
+  height: 770px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  main form {
+    box-shadow: unset;
+    background-color: unset;
+  }
 }
 
 main form label {
@@ -50,8 +58,8 @@ main form label span {
 main form button {
   background: #fff;
   width: 150px;
-  height: 37px;
-  padding: 0 0rem;
+  height: 47px;
+  padding: 0;
   margin-top: 3rem;
   outline: none;
   color: rgb(74, 31, 190);
@@ -59,7 +67,7 @@ main form button {
   border: 1px solid #040b18;
   border-radius: 8px;
   font-weight: 600;
-  font-size: large;
+  font-size: 18px;
 }
 
 main form input {
@@ -71,7 +79,7 @@ main form input {
   margin-bottom: 0.4rem;
   outline: none;
   color: rgba(166, 166, 166);
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: 1px solid #040b18;
   border-radius: 8px;
 }
