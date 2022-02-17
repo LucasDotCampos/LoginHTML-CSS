@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: rgb(93, 60, 182);
+
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main form {
+  background-color: rgb(95, 66, 175);
+  border: 0.23rem 0.23rem solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  box-shadow: 1.6rem 1.6rem 1.2rem 0.2rem rgba(0, 0, 0, 0.8);
+  padding: 8rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main form label {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main form label span {
+  font-size: 1.1rem;
+}
+main form button {
+  background: #fff;
+  width: 150px;
+  height: 37px;
+  padding: 0 0rem;
+  margin-top: 3rem;
+  outline: none;
+  color: rgb(74, 31, 190);
+  font-size: 1rem;
+  border: 1px solid #040b18;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: large;
+}
+
+main form input {
+  background: #fff;
+  width: 300px;
+  height: 37px;
+  padding: 0 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+  outline: none;
+  color: rgba(166, 166, 166);
+  font-size: 1rem;
+  border: 1px solid #040b18;
+  border-radius: 8px;
+}
